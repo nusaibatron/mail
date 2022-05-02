@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useFetch } from "./useFetch";
 import Mail from "./Mail";
+import logo from './stable-logo.svg';
 function App() {
   const { loading, data } = useFetch();
   const [page, setPage] = useState(0);
@@ -33,7 +34,7 @@ function App() {
     <main>
       <div className="section-title">
         <h1>{loading ? "loading..." : "Mail"}</h1>
-        <img></img>
+        <img src={logo} alt="logo" />
         <div className="underline"></div>
       </div>
       <section className="mails">
