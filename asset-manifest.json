@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/mail/static/css/main.4df3a001.css",
+    "main.js": "/mail/static/js/main.5eec94ae.js",
+    "static/media/stable-logo.svg": "/mail/static/media/stable-logo.a07ce24eade94e4c8f0ac2b55efe1ce4.svg",
+    "index.html": "/mail/index.html",
+    "main.4df3a001.css.map": "/mail/static/css/main.4df3a001.css.map",
+    "main.5eec94ae.js.map": "/mail/static/js/main.5eec94ae.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4df3a001.css",
+    "static/js/main.5eec94ae.js"
+  ]
+}
