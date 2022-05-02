@@ -32,10 +32,11 @@ function App() {
   };
   return (
     <main>
+      <img src={logo} width="200" height="40" />
       <div className="section-title">
         <h1>{loading ? "loading..." : "Mail"}</h1>
-        <img src={logo} alt="logo" />
         <div className="underline"></div>
+
       </div>
       <section className="mails">
         <div className="container">
