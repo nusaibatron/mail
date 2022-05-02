@@ -33,6 +33,7 @@ function App() {
     <main>
       <div className="section-title">
         <h1>{loading ? "loading..." : "Mail"}</h1>
+        <img></img>
         <div className="underline"></div>
       </div>
       <section className="mails">
