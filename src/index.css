@@ -61,7 +61,7 @@ Global Styles
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  background-image: linear-gradient(to right, #add8e6, #3976b8);
+  background-image: linear-gradient(to right, #FAFCFF, #FAFCFF);
   color: var(--clr-grey-1);
   line-height: 1.5;
   font-size: 0.875rem;
@@ -71,6 +71,12 @@ ul {
 }
 a {
   text-decoration: none;
+}
+desc {
+  font-size: 0.75rem;
+  text-align: left;
+  margin-left: 5rem;
+
 }
 h1,
 h2,
@@ -83,6 +89,9 @@ h4 {
 }
 h1 {
   font-size: 2.75rem;
+  text-align: left;
+  margin-left: 5rem;
+
 }
 h2 {
   font-size: 2rem;
@@ -92,11 +101,22 @@ h3 {
 }
 h4 {
   font-size: 0.875rem;
+  color: #606060;
 }
 
 h6 {
   font-size: 0.575rem;
-  color:hsl(205, 100%, 96%)
+  color: #606060;
+}
+
+footer {
+  font-size: 0.575rem;
+  color: #606060;
+  letter-spacing: var(--spacing);
+  text-transform: capitalize;
+  line-height: 1.25;
+  margin-top: 2.75rem;
+  text-align: right;
 }
 
 p {
@@ -133,13 +153,13 @@ Pagination
 ===============
 */
 .section-title {
-  text-align: center;
+  text-align: left;
   margin: 4rem 0 6rem 0;
 }
 .underline {
-  width: 8rem;
-  height: 0.25rem;
-  background: #fcb69f;
+  width: 100rem;
+  height: 0.15rem;
+  background:  #606060;
   margin: 0 auto;
 }
 .mails {
@@ -158,7 +178,7 @@ Pagination
   }
 }
 .card {
-  background: #3066BE;
+  background: #FAFCFF;
   border-radius: var(--radius);
   box-shadow: var(--light-shadow);
   padding: 2rem 3.5rem;
@@ -168,6 +188,16 @@ Pagination
   width: 180px;
   height: 120px;
   border: 0.3rem solid #D3D3D3;
+}
+
+.icon {
+background: #FAFCFF;
+
+}
+
+.icon img {
+  width: 90px;
+  height: 60px;
 }
 
 .card h4 {

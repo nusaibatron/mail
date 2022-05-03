@@ -33,10 +33,10 @@ function App() {
   return (
     <main>
       <img src={logo} width="200" height="40" />
+      <div className="underline"></div>
       <div className="section-title">
         <h1>{loading ? "loading..." : "All Mail"}</h1>
-        <h6>Here are all of the pieces of mail you've reveived at your Stable address.</h6>
-        <div className="underline"></div>
+        <desc>Here are all of the pieces of mail you've reveived at your Stable address.</desc>
 
       </div>
       <section className="mails">
