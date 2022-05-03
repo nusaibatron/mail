@@ -192,7 +192,6 @@ Pagination
 
 .icon {
 background: #FAFCFF;
-
 }
 
 .icon img {
@@ -224,7 +223,7 @@ background: #FAFCFF;
 
 .btn-container {
   display: flex;
-  justify-content: center;
+  justify-content: right;
   flex-wrap: wrap;
 }
 .page-btn {
@@ -238,7 +237,7 @@ background: #FAFCFF;
   transition: var(--transition);
 }
 .active-btn {
-  background: #c0775f;
+  background: #3066BE;
   color: var(--clr-white);
 }
 .prev-btn,

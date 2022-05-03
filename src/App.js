@@ -30,6 +30,12 @@ function App() {
       setPage(page - 1);
     }
   };
+
+  let totalMail = 0;
+  for (var i = 0; i < data.length; i++) {
+      totalMail = totalMail + data[i].length
+  }
+
   return (
     <main>
       <img src={logo} width="200" height="40" />
@@ -45,6 +51,7 @@ function App() {
             return <Mail key={mail.id} {...mail} />;
           })}
         </div>
+        <div>{totalMail} mail items</div>
         <div className="btn-container">
           <button className="btn next-btn" onClick={() => prevPage()}>
             {!loading ? "Previous" : null}
