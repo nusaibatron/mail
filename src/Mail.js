@@ -6,7 +6,7 @@ const Mail = (mail) => {
   return (
     <article className="card">
       <img src={imageUrl} alt={id} />
-      <h5 > ID: </h5> <h6>{id}</h6>
+      {/* <h5 > ID: </h5> <h6>{id}</h6> */}
       <h5> Business Recipient:</h5> <h6>{businessRecipient}</h6>
       {/* // <h4> Forward: {forward}</h4> */}
       <h5> From: </h5> <h6>{from}</h6>
