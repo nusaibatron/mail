@@ -243,7 +243,7 @@ background: #FAFCFF;
 .prev-btn,
 .next-btn {
   background: transparent;
-  border-color: transparent;
+  border-color: #606060;
   font-weight: bold;
   text-transform: capitalize;
   letter-spacing: var(--spacing);
